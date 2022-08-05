@@ -1,0 +1,101 @@
+/*======================= LIGHT MODE =======================*/
+.container__main {
+	background-color: var(--lm-color-bg);
+	height: calc(100vh - 5.7rem);
+	position: relative;
+	box-shadow: 0rem 0.06rem 0.1rem rgba(0, 0, 0, 0.25);
+}
+.container__main .main__bg-image {
+	position: absolute;
+	right: 0;
+	top: 6.7rem;
+}
+.main {
+	padding-left: 1.7rem;
+	padding-top: 3.6rem;
+}
+.main__title {
+	font-family: var(--inter-font);
+	font-weight: 700;
+	font-size: 2.4rem;
+	line-height: 3rem;
+	letter-spacing: -0.05rem;
+	color: var(--lm-color-text);
+}
+.main__list {
+	padding-top: 2.9rem;
+	padding-left: 3.2rem;
+}
+.main__list-item {
+	width: 100%;
+	display: flex;
+	align-items: center;
+	color: var(--lm-color-text);
+	font-family: var(--inter-font);
+	font-weight: 400;
+	line-height: 1.2rem;
+}
+.main__list-item:not(:last-child) {
+	margin-bottom: 1.3rem;
+}
+.main__dot {
+	margin-right: 0.8rem;
+}
+/*======================= DARK MODE =======================*/
+.container__main-dark {
+	background-color: var(--dm-color-bg-primary);
+	height: calc(100vh - 5.7rem);
+	position: relative;
+}
+.container__main-dark .main__bg-image {
+	position: absolute;
+	right: 0;
+	top: 6.7rem;
+}
+.main__title-dark {
+	font-family: var(--inter-font);
+	font-weight: 700;
+	font-size: 2.4rem;
+	line-height: 3rem;
+	letter-spacing: -0.05rem;
+	color: var(--dm-color-text);
+}
+
+.main__list-item-dark {
+	width: 100%;
+	display: flex;
+	align-items: center;
+	color: var(--dm-color-text);
+	font-family: var(--inter-font);
+	font-weight: 400;
+	line-height: 1.2rem;
+}
+.main__list-item-dark:not(:last-child) {
+	margin-bottom: 1.3rem;
+}
+/*======================= MEDIA QUERIES (SMALL DEVICES) =======================*/
+
+@media screen and (max-width: 600px) {
+	.main__list-item {
+		font-size: 0.8rem;
+	}
+	.main__list {
+		padding: 1.9rem;
+		position: relative;
+		z-index: 1;
+	}
+	.container__main .main__bg-image {
+		z-index: 0;
+	}
+	.main__list-item-dark {
+		font-size: 0.8rem;
+	}
+	.main__list-dark {
+		padding: 1.9rem;
+		position: relative;
+		z-index: 1;
+	}
+	.container__main-dark .main__bg-image {
+		z-index: 0;
+	}
+}
