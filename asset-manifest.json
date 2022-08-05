@@ -1,0 +1,21 @@
+{
+  "files": {
+    "main.css": "/react-facts-with-themes/static/css/main.195c56d7.css",
+    "main.js": "/react-facts-with-themes/static/js/main.979ff04e.js",
+    "static/js/787.04423670.chunk.js": "/react-facts-with-themes/static/js/787.04423670.chunk.js",
+    "static/media/reactLogoDark.svg": "/react-facts-with-themes/static/media/reactLogoDark.b27275039082595cd3f9d090669c8c34.svg",
+    "static/media/reactLogoLight.svg": "/react-facts-with-themes/static/media/reactLogoLight.56d4766eea48b04fc3bfa0883c51dabf.svg",
+    "static/media/reactMainDark.svg": "/react-facts-with-themes/static/media/reactMainDark.7cf93eb943e42f0b066e01a9f62f8494.svg",
+    "static/media/reactMainLight.svg": "/react-facts-with-themes/static/media/reactMainLight.656918db88a1d9af5b768eef90dea832.svg",
+    "index.html": "/react-facts-with-themes/index.html",
+    "static/media/ellipseDark.svg": "/react-facts-with-themes/static/media/ellipseDark.d5d5e84ac73dcaeba36aa214690a3a62.svg",
+    "static/media/ellipseLight.svg": "/react-facts-with-themes/static/media/ellipseLight.06f3efbd7596d611bd1ede8337ddd3ca.svg",
+    "main.195c56d7.css.map": "/react-facts-with-themes/static/css/main.195c56d7.css.map",
+    "main.979ff04e.js.map": "/react-facts-with-themes/static/js/main.979ff04e.js.map",
+    "787.04423670.chunk.js.map": "/react-facts-with-themes/static/js/787.04423670.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.195c56d7.css",
+    "static/js/main.979ff04e.js"
+  ]
+}
